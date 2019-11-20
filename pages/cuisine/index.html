@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/styles.css">
+		<title>CUISINE Hongrie - Région du Lac Balaton</title>
+		<link rel="icon" href="../../images/galamb2.jpg" type="image/x-icon">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="button" title="En haut!"> <img src="../../images/up5.png"></button>
+			<div id="head-menu">
+				<ul>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="index.html"> CUISINE </a> </a>
+							<div class="dropdown-content">
+								<a href="entres_soups/index.html"> ENTRÉS / SOUPS </a>
+								<a href="maincours/index.html"> MAIN COURS </a>
+								<a href="desserts/index.html"> DESSERTS </a>
+							</div>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../adresses/index.html"> ADRESSES </a> </a>
+							<div class="dropdown-content">
+								<a href="../adresses/restos.html">RESTOS</a>
+								<a href="../adresses/vignerons.html">VIGNERONS</a>
+							</div>
+					<li> <a href="../produits/index.html"> PRODUITS </a> </li>
+					<li> <a href="../traditions/index.html"> TRADITIONS </a> </li>
+					<li class="icon_left"> <a href="../../index.html" title="Home"> HOME </a> </li>
+				</ul>
+			</div>
+				<img class="pic-top" title="Vue panoramique sur le Lac Balaton" src="../../images/taj8.jpg"/>
+				<button onclick="goBack()" id="button2" title="Retourner"> <img src="../../images/back3.png"></button>
+      <div id="article1">
+    		<h1>Cuisine</h1>
+        <p>Je me suis toujours intéressée à la cuisine de différents pays et j’ai toujours adoré improviser dans
+          la cuisine. Depuis mon enfance, j’ai toujours aidé ma maman et ma grand-maman pour préparer les repas.
+          Elles sont toutes deux, de très bonnes cuisinières, mais entre elles, c’est le jour et la nuit. Ma grand-maman
+          représente la tradition et ma maman est une vrai « anarchiste » de la cuisine, aux yeux du village. On peut
+          dire que j’ai les deux, dans mon sang. Veuillez choisir
+          entre la page <a href="entres_soups/index.html">« Entrés et Soups »</a>, 	<a href="maincours/index.html">« Maincours »</a>
+          et la page <a href="desserts/index.html">« Desserts »</a>.
+        </p>
+    	</div>
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("button").style.display = "block";
+  		} else {
+    		document.getElementById("button").style.display = "none";
+  		}
+			}
+				function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
+			}
+			</script>
+			<script>
+				function goBack() {
+  				window.history.back();
+			}
+			</script>
+			<div id="feet-background">
+				<ul>
+					<li> <a href="../contact/index.html"> Contact </a> </li>
+					<li> <a href="../references/index.html"> Références </a> </li>
+				</ul>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/styles.css">
+		<title>TRADITIONS Hongrie - Région du Lac Balaton</title>
+		<link rel="icon" href="../../images/galamb2.jpg" type="image/x-icon">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="button" title="En haut!"> <img src="../../images/up5.png"></button>
+			<div id="head-menu">
+				<ul>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../cuisine/index.html"> CUISINE </a> </a>
+							<div class="dropdown-content">
+								<a href="../cuisine/entres_soups/index.html"> ENTRÉS / SOUPS </a>
+								<a href="../cuisine/maincours/index.html"> MAIN COURS </a>
+								<a href="../cuisine/desserts/index.html"> DESSERTS </a>
+							</div>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../adresses/index.html"> ADRESSES </a> </a>
+							<div class="dropdown-content">
+								<a href="../adresses/restos.html">RESTOS</a>
+								<a href="../adresses/vignerons.html">VIGNERONS</a>
+							</div>
+					<li> <a href="../produits/index.html"> PRODUITS </a> </li>
+					<li> <a href="index.html"> TRADITIONS </a> </li>
+					<li class="icon_left"> <a href="../../index.html" title="Home"> HOME </a> </li>
+				</ul>
+			</div>
+		<img class="pic-top" title="Vue panoramique sur le Lac Balaton" src="../../images/taj8.jpg"/>
+		<button onclick="goBack()" id="button2" title="Retourner"> <img src="../../images/back3.png"></button>
+		<div id="article3">
+			<h1>Lundi de Pâques</h1>
+      <img title="Lundi de Pâques" src="../../images/locsolas.jpg">
+			<p>On l'appelait le lundi gouttant, car dans les villages, les filles avaient été arrosé d'un
+        seau d'eau ou jeté dans l’abreuvoir, par les garçons, il y a cinquante ans. Dans les villes
+        et de nos jours, la forme la plus fine est répandue quand elles sont arrosées d'un parfum,
+        les garçons disent un « vers arrosoir », ils reçoivent un œuf peint à la main.
+			</p>
+		</div>
+		<div id="article2">
+			<h1>Pálinka</h1>
+      <img title="Pálinka" src="../../images/palesz.png">
+			<p>"La pálinka est une eau-de-vie traditionnelle à double distillation produite
+        dans les régions de langue hongroise du bassin des Carpates, surtout en Hongrie et en
+        Transylvanie. La pálinka peut être faite à partir des fruits; de prunes (szilva), de pommes (alma),
+        de poires (körte), d'abricots (barack), de coings aux arômes de pommes ou de poires (birsalma et birskörte)
+        ou de cerises (cseresznye). La pálinka est considérée comme la boisson nationale hongroise."<br>
+        "La quantité d'alcool varie de 35 à 70 %, 40 % étant le maximum légal pour la vente en magasin.
+        Les versions les plus alcoolisées sont surnommées en hongrois kerítés szaggató, ce qui signifie
+        littéralement « défonceur de barrière » par allusion aux pertes d'équilibre des ivrognes. Ces versions
+        artisanales, hazi pálinkák, ne sont pas commercialisées, mais sont néanmoins aisément disponibles."<br>
+        "La pálinka traditionnelle était un élément important de l'alimentation villageoise. Le travail agricole
+        était physiquement exigeant et les repas comprenaient surtout du pain, du lard, du jambon et des oignons."<br>
+      </p>
+      <img class="pic-left" titre="Egészségedre! Santé!" src="../../images/egs.jpg">
+      <p>Le pálinka est bu avant le repas. Ce qui peut être très dangereux, si on ne sait pas quand la nourriture est prête.
+			</p>
+		</div>
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("button").style.display = "block";
+  		} else {
+    		document.getElementById("button").style.display = "none";
+  		}
+			}
+				function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
+			}
+			</script>
+			<script>
+				function goBack() {
+  				window.history.back();
+			}
+			</script>
+			<div id="feet-background">
+				<ul>
+					<li> <a href="../contact/index.html"> Contact </a> </li>
+					<li> <a href="../references/index.html"> Références </a> </li>
+				</ul>
+			</div>
+	</body>
+</html>

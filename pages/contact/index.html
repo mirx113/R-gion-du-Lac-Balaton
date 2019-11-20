@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/styles.css">
+		<title>Conctact Hongrie - Région du Lac Balaton</title>
+		<link rel="icon" href="../../images/galamb2.jpg" type="image/x-icon">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="button" title="Go to top"> <img src="../../images/up5.png"></button>
+		<div id="head-background">
+			<div id="head-menu">
+				<ul>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../cuisine/index.html"> CUISINE </a> </a>
+							<div class="dropdown-content">
+								<a href="../cuisine/entres_soups/index.html"> ENTRÉS / SOUPS </a>
+								<a href="../cuisine/maincours/index.html"> MAIN COURS </a>
+								<a href="../cuisine/desserts/index.html"> DESSERTS </a>
+							</div>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../adresses/index.html"> ADRESSES </a> </a>
+							<div class="dropdown-content">
+								<a href="../adresses/restos.html">RESTOS</a>
+								<a href="../adresses/vignerons.html">VIGNERONS</a>
+							</div>
+					<li> <a href="../produits/index.html"> PRODUITS </a> </li>
+					<li> <a href="../traditions/index.html"> TRADITIONS </a> </li>
+					<li class="icon_left"> <a href="../../index.html" title="Home"> HOME </a> </li>
+				</ul>
+			</div>
+		</div>
+		<img class="pic-top" title="Vue panoramique sur le Lac Balaton" src="../../images/taj8.jpg"/>
+		<button onclick="goBack()" id="button2" title="Go back"> <img src="../../images/back3.png"></button>
+		<div id="article2">
+      <form method="post" action="mailto:buzanszkymira@gmail.com">
+			    <h1>Contact</h1>
+          <p>
+          <label for="name">Votre nom : </label><br>
+          <textarea rows="1" cols="40" id="name"></textarea><br>
+          <label for="mail">Votre adresse mail : </label><br>
+          <textarea rows="1" cols="40" id="mail"></textarea><br>
+          <label for="message">Votre message : </label><br>
+          <textarea rows="15" cols="100" id="message"></textarea><br>
+          <input type="submit" name="nom" value="Envoyer">
+					<input type="reset" name="nom" value="Annuler"><br>
+          </p>
+      </form>
+    </div>
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("button").style.display = "block";
+  		} else {
+    		document.getElementById("button").style.display = "none";
+  		}
+			}
+				function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
+			}
+			</script>
+			<script>
+				function goBack() {
+  				window.history.back();
+			}
+			</script>
+			<div id="feet-background">
+				<ul>
+					<li> <a href="index.html"> Contact </a> </li>
+					<li> <a href="../references/index.html"> Références </a> </li>
+				</ul>
+			</div>
+	</body>
+</html>

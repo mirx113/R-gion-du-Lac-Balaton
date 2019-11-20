@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/styles.css">
+		<title>PRODUITS Hongrie - Région du Lac Balaton</title>
+		<link rel="icon" href="../../images/galamb2.jpg" type="image/x-icon">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="button" title="En haut!"> <img src="../../images/up5.png"></button>
+			<div id="head-menu">
+				<ul>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../cuisine/index.html"> CUISINE </a> </a>
+							<div class="dropdown-content">
+								<a href="../cuisine/entres_soups/index.html"> ENTRÉS / SOUPS </a>
+								<a href="../cuisine/maincours/index.html"> MAIN COURS </a>
+								<a href="../cuisine/desserts/index.html"> DESSERTS </a>
+							</div>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../adresses/index.html"> ADRESSES </a> </a>
+							<div class="dropdown-content">
+								<a href="../adresses/restos.html">RESTOS</a>
+								<a href="../adresses/vignerons.html">VIGNERONS</a>
+							</div>
+					<li> <a href="index.html"> PRODUITS </a> </li>
+					<li> <a href="../traditions/index.html"> TRADITIONS </a> </li>
+					<li class="icon_left"> <a href="../../index.html" title="Home"> HOME </a> </li>
+				</ul>
+			</div>
+		<img class="pic-top" title="Vue panoramique sur le Lac Balaton" src="../../images/taj8.jpg"/>
+		<button onclick="goBack()" id="button2" title="Retourner"> <img src="../../images/back3.png"></button>
+		<div id="article2">
+			<h1>Paprika en poudre</h1>
+      <img class="pic-left" title="Paprika en poudre" src="../../images/paprika.jpg">
+      <img class="bigpic-left" title="Paprika en poudre" src="../../images/paprika.jpg">
+			<p> Le paprika, aussi connu sous le terme piment doux, est une épice en poudre de couleur rouge
+        obtenue à partir du fruit mûr, séché et moulu du piment doux. Cette épice est la base de plupart
+        des plats hongrois. Il y a encore des gens, qui font leur propre culture de paprika et font
+        leur propre poudre, par exemple ma grand-maman.
+			</p>
+		</div>
+		<div id="article3">
+			<h1>Erős Pista et Édes Anna - Stéphane Fort et Ana Doux</h1>
+      <img class="pic-left" title="Erős Pista" src="../../images/pista.jpg">
+			<img class="bigpic-left" title="Paprika en poudre" src="../../images/pista.jpg">
+			<p>Sa caractéristique unique est qu'il contient du paprika grossièrement moulu, et en tant que
+        tel, en plus du goût du produit, sa valeur esthétique joue également un rôle important. « Erős
+        Pista » ne contient rien d'autre que du paprika aux épices chaudes. « Édes Anna » est recommandé
+         pour ceux qui préfèrent les saveurs salées.
+			</p>
+		</div>
+		<div id="article1">
+			<h1>Zwack – Unicum</h1>
+      <img class="pic-left" title="Unicum" src="../../images/unicum.jpg">
+			<img class="bigpic-left" title="Paprika en poudre" src="../../images/unicum.jpg">
+			<p>Une vrai « Hungaricum », crée par la famille Zwack, depuis plus que 200 ans.
+        Pour la préparation, plus de 40 herbes et épices sont sélectionnées sur les cinq continents.
+        Ces plantes spéciales sont encore aujourd'hui mesurées à la main et certains ingrédients proviennent même de la famille Zwack.
+	    </p>
+		</div>
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("button").style.display = "block";
+  		} else {
+    		document.getElementById("button").style.display = "none";
+  		}
+			}
+				function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
+			}
+			</script>
+			<script>
+				function goBack() {
+  				window.history.back();
+			}
+			</script>
+			<div id="feet-background">
+				<ul>
+					<li> <a href="../contact/index.html"> Contact </a> </li>
+					<li> <a href="../references/index.html"> Références </a> </li>
+				</ul>
+			</div>
+	</body>
+</html>

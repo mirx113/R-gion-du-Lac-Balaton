@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/styles.css">
+		<title>RESTOS Hongrie - Région du Lac Balaton</title>
+		<link rel ="icon" href="../../images/galamb2.jpg" type="image/x-icon">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="button" title="En haut!"> <img src="../../images/up5.png"></button>
+			<div id="head-menu">
+				<ul>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="../cuisine/index.html"> CUISINE </a> </a>
+							<div class="dropdown-content">
+								<a href="../cuisine/entres_soups/index.html"> ENTRÉS / SOUPS </a>
+								<a href="../cuisine/maincours/index.html"> MAIN COURS </a>
+								<a href="../cuisine/desserts/index.html"> DESSERTS </a>
+							</div>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"> <a href="index.html"> ADRESSES </a> </a>
+							<div class="dropdown-content">
+								<a href="restos.html">RESTOS</a>
+								<a href="vignerons.html">VIGNERONS</a>
+							</div>
+					<li> <a href="../produits/index.html"> PRODUITS </a> </li>
+					<li> <a href="../traditions/index.html"> TRADITIONS </a> </li>
+					<li class="icon_left"> <a href="../../index.html" title="Home"> HOME </a> </li>
+				</ul>
+			</div>
+		<img class="pic-top" title="Vue panoramique sur le Lac Balaton" src="../../images/taj8.jpg"/>
+		<button onclick="goBack()" id="button2" title="Retourner"> <img src="../../images/back3.png"></button>
+		<div id="article1">
+			<h1>Kistücsök – « Tiny Cricket »</h1>
+      <p><i> L'amour de la tradition implique l'amour du futur - Lalla Romano. Cette devise du célèbre
+        écrivain italien est très proche de la philosophie de Kistücsök. »</i>
+      </p>
+      <img title="Restaurant Kistücsök" src="../../images/kistucsoketterem.jpg">
+      <p><a href="http://kistucsok.hu/?lang=en">Kistücsök</a> se trouve au bord sud du Lac, à
+        Balatonszemes. Le restaurant a une profile moderne en retravaillant aussi les plats traditionnels.
+        Très connu dans tout le pays, il ne faut pas oublier de réserver une table avant arriver.
+      </p>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/45639260" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("button").style.display = "block";
+  		} else {
+    		document.getElementById("button").style.display = "none";
+  		}
+			}
+				function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
+			}
+			</script>
+			<script>
+				function goBack() {
+  				window.history.back();
+			}
+			</script>
+			<div id="feet-background">
+				<ul>
+					<li> <a href="../contact/index.html"> Contact </a> </li>
+					<li> <a href="../references/index.html"> Références </a> </li>
+				</ul>
+			</div>
+	</body>
+</html>
